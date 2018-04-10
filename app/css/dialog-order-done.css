@@ -1,0 +1,27 @@
+.ok-svg{
+	width: 80px;
+	height: 80px;
+	border-radius: 50% 50%;
+	border: solid 3px #1e8bc3;
+	background: url(../assets/icons/shape.svg) no-repeat 50% 50%;
+	margin: 102px 0 28px 598px;
+}
+.congradulations{
+	font-size: 36px;
+	line-height: 1.33;
+	color: #212121;
+	text-align: center;
+}
+.collback{
+	font-size: 14px;
+	line-height: 1.86;
+	color: #9fa3a7;
+	text-align: center;
+	margin: 40px 0 89px;
+}
+
+.white-button__sett{
+	font-size: 12px;
+	color: #212121;
+	margin:0 0 103px 570px;
+}

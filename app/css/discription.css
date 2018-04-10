@@ -1,0 +1,50 @@
+.discription{
+	background-color: #fff;
+	margin-left: 400px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.18);
+}
+.discription__title{
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #32393d;
+	padding-top: 46px;
+	margin-bottom: 18px;
+}
+.discription__separator{
+	width: 690px;
+	margin-bottom: 23px;
+}
+.date{
+	font-size: 16px;
+	margin-bottom: 14px;
+}
+.app-info{
+	float: left;
+	width: 400px;
+}
+.app-info__p{
+	line-height: 1.25;
+	color: #79878e;
+	margin-bottom: 25px;
+}
+.app-imfo__img{
+	width: 251px;
+	height: 188px;
+}
+.blue-button{
+	margin-left: 462px;
+}
+.button{
+	width: 160px;
+	height: 40px;
+	padding-top: 11px;
+}
+.discription__functions-ul{
+	padding-left: 46px;
+}
+.discription__functions-p{
+	font-size: 18px;
+	line-height: 1.72;
+	color: #4d5762;
+	margin-bottom: 30px;
+}

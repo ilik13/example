@@ -1,0 +1,41 @@
+.dialog-container{
+	width: 910px;
+	margin: 117px 0 64px 158px;
+}
+
+.title{
+	font-size: 18px;
+	font-family: Arial;
+	color: #020202;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+.placeholder, .radio-block{display: inline-block;}
+.placeholder__input{
+	margin: 9px 18px 9px 0;
+	background-color: #fafafa;
+	font-size: 14px;
+	color: #9fa3a7;
+}
+.placeholder__big{
+	width: 310px;
+	height: 45px;
+}
+
+.radio-block{
+	position: absolute;
+	margin-left: 38px;
+}
+.radio{margin-top: 12px;}
+.label-radio{
+	font-size: 14px;
+	color: #9b9b9b;
+}
+.placeholder__short{width: 200px;}
+
+.button{
+	font-size: 12px;
+	font-family: Arial;
+	margin-left: 875px;
+	margin-bottom: 230px;
+}

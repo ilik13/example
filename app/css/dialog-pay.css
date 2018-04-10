@@ -1,0 +1,80 @@
+.credit-card{
+	width: 430px;
+	height: 260px;
+	margin: 154px 0 0 290px;
+	position: absolute;
+	background-color: #fff;
+	border: solid 2px #d8d8d8;
+	border-radius: 8px;
+	
+}
+.card-back{
+	margin: 190px 0 0 415px;
+	background-color: #fafafa;
+	border: solid 1px #e8e9ed;
+}
+.container-card{
+	margin: 31px 36px 30px 24px;
+}
+.placeholder__input{
+	margin: 0;
+	border-radius: 6px;
+	background-color: #fafafa;
+	font-size: 14px;
+	line-height: 1.86;
+	color: #9fa3a7;
+}
+.placeholder__number-card{
+	width: 248px;
+	height: 46px;
+}
+.logo-card{
+	width: 62px;
+	height: 80px;
+	position: absolute;
+	right: 32px;
+	top: 27px;
+	background: url(../icons/master-card.svg) no-repeat 50% 0%, url(../icons/visa.svg) no-repeat 50% 100%;
+}
+.placeholder__date{
+	width: 115px;
+	height: 46px;
+	margin: 19px 18px 42px 0;
+}
+.placeholder__fio{
+	width: 370px;
+	height: 46px;
+}
+
+.sign-field{
+	width: 400px;
+	height: 39px;
+	background-color: #e8e9ed;
+	margin-top: 35px;
+	float: right;
+}
+.placeholder__cvv{
+	width: 76px;
+	height: 46px;
+	float: right;
+	margin: 20px 27px 0 0;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: #9fa3a7;
+	text-align: center;
+}
+.cvv-text{
+	width: 72px;
+	font-size: 12px;
+	line-height: 1.8;
+	color: #c8c8c8;
+	margin: 149px 25px 0 330px;
+
+}
+
+.buy-buttons{
+	margin: 514px 237px 120px 280px;
+}
+.button{width: 167px;font-size: 14px;font-weight: bold;}
+.white-button, .blue-button{display: inline-block;}
+.blue-button{margin-left: 370px;}

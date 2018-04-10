@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dialog-client-info</title>
+	<link rel="stylesheet" href="css/ui-kit.css" type="text/css">
+	<link rel="stylesheet" href="css/dialog-main.css" type="text/css">
+	<link rel="stylesheet" href="css/dialog-client-info.css" type="text/css">
+</head>
+<body class="dialog-body">
+		<div class="steps-2">
+			<ul clas="steps-2__ul">
+				<li class="steps-2__li steps-2__li_done"><span>1</span></li>
+				<li class="steps-2__li steps-2__li_active"><span>2</span></li>
+				<li class="steps-2__li steps-2__li_next"><span>3</span></li>
+				<li class="steps-2__li_last"><span>4</span></li>
+			</ul>
+		</div>
+		<div class="dialog-container">
+			<p class="title">Контактная информация</p>
+			<div class="placeholder">
+				<input type="text" placeholder="Фамилия" class="placeholder__input placeholder__big">
+				<input type="text" placeholder="Имя Отчество" class="placeholder__input placeholder__big">
+			</div>
+			<div class="radio-block">
+				<div class="radio">
+					<input type="radio" id="fast" class="radio__input" name="setup">
+					<label for="fast" class="label-radio">Быстрая установка</label>
+				</div>
+				<div class="radio">
+					<input type="radio" id="late" class="radio__input" name="setup">
+					<label for="late" class="label-radio">Отложенная установка</label>
+				</div>
+			</div>
+			<div class="placeholder">
+				<input type="text" placeholder="Номер телефона" class="placeholder__input placeholder__big">
+				<input type="text" placeholder="E-mail" class="placeholder__input placeholder__big">
+			</div>
+			<div class="placeholder">
+				<input type="text" placeholder="Организация" class="placeholder__input placeholder__short">
+				<input type="text" placeholder="ИНН" class="placeholder__input placeholder__short">
+				<input type="text" placeholder="Город" class="placeholder__input placeholder__short">
+			</div>
+		</div>
+		<div class="blue-button">
+			<span class="button blue-button__sett">Отправить</span>
+		</div>
+</body>
+ 
+</html>

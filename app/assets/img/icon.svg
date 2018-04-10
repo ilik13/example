@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>DEF2AE00-36AD-4090-A052-A98D01115B5F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Kit" transform="translate(-732.000000, -556.000000)" fill="#1E8BC3">
+            <g id="Blue" transform="translate(289.000000, 51.000000)">
+                <g id="Inputs" transform="translate(1.000000, 488.000000)">
+                    <g id="Blue-Select" transform="translate(326.000000, 0.000000)">
+                        <path d="M125.142868,17.5714293 C125.142868,17.2589289 124.883939,17 124.571439,17 L116.571429,17 C116.258929,17 116,17.2589289 116,17.5714293 C116,17.7232151 116.0625,17.8660725 116.169643,17.9732154 L120.169648,21.9732202 C120.276791,22.0803632 120.419648,22.1428633 120.571434,22.1428633 C120.72322,22.1428633 120.866077,22.0803632 120.97322,21.9732202 L124.973225,17.9732154 C125.080368,17.8660725 125.142868,17.7232151 125.142868,17.5714293 L125.142868,17.5714293 Z" id="Icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

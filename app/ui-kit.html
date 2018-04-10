@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ui-kit</title>
+	<link rel="stylesheet" href="css/ui-kit.css">
+</head>
+<body class="ui-kit">
+	<div class="white-button">
+		<span class="button white-button__sett">SomeText</span>
+	</div>
+
+	<div class="blue-button">
+		<span class="button blue-button__sett">SomeText</span>
+	</div>
+
+	<div class="check">
+		<input type="checkbox" id="checkbox" class="check__input">
+		<label for="checkbox" class="label-checkbox">activ</label>
+	</div>
+	
+	<div class="check-dis">
+		<input type="checkbox" id="checkbox-dis" class="check__input" disabled>
+		<label for="checkbox-dis" class="label-checkbox">dis</label>
+	</div>
+
+	<div class="swicher">
+		<div class="swicher__bg">
+			<div class="swicher__sett swicher__left-on">
+
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="swicher">
+		<div class="swicher__bg">
+			<div class="swicher__sett swicher__right-on">
+				
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="swicher-on-off">
+		<div class="swicher-on-off__bg swicher-on-off_off">
+			<div class="swicher__sett swicher__left-on">
+				<span class="swicher-on-off__off">off</span>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="swicher-on-off">
+		<div class="swicher-on-off__bg swicher-on-off_on">
+			
+			<div class="swicher__sett swicher__right-on">
+				<span class="swicher-on-off__on">on</span>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="counter-arrow">
+		<div class="counter-arrow__bg">
+			<div class="counter-arrow__sett clearfix arrow_minus">
+				
+			</div>
+			<span class="counter-arrow__count">2</span>
+			<div class="counter-arrow__sett clearfix arrow_plus">
+				
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="counter-plus-minus">
+		<div class="counter-plus-minus__bg">
+			<div class="counter-plus-minus__sett clearfix arrow_minus">
+			</div>
+				<span class="counter-plus-minus__count">2</span>
+			<div class="counter-plus-minus__sett clearfix arrow_plus">
+			</div>
+		</div>
+	</div>
+	
+	<div class="radio">
+		<input type="radio" id="radio" class="radio__input">
+		<label for="radio" class="label-radio">activ</label>
+	</div>
+	
+	<div class="radio-dis">
+		<input disabled type="radio" id="radio-dis" class="radio__input">
+		<label for="radio-dis" class="label-radio">dis</label>
+	</div>
+
+	<div class="placeholder">
+			<input type="text" placeholder="placeholder" class="placeholder__input">
+	</div>
+	
+	<div class="select-list">
+		<select name="select" class="select-list__select">
+			<option value="val1">Select list</option>
+			<option value="val2">val2</option>
+			<option value="val3">val3</option>
+			<option value="val4">val4</option>
+			<option value="val5">val5</option>
+		</select>
+	</div>
+
+	<div class="allert allert-blue">
+		<div class="allert__close clearfix"></div>
+		<p class="allert__text allert-white__text">Are you sure you want to delete this item?</p>
+		<div class="allert-blue__buttons">
+			<div class="buttons__white allert-button">Yes</div>
+			<div class="buttons__blue allert-button">No</div>
+		</div>
+	</div>
+	
+	<div class="allert allert-white">
+		<div class="allert__close clearfix"></div>
+		<p class="allert__text allert-blue__text">Are you sure you want to delete this item?</p>
+		<div class="allert-blue__buttons">
+			<div class="buttons__blue allert-button">Yes</div>
+			<div class="buttons__white allert-button">No</div>
+		</div>
+	</div>
+	<div class="steps">
+		<div class="steps__circle circle-done clearfix">1</div>
+		<div class="steps__line steps__line-done clearfix"></div>
+		<div class="steps__circle circle-active clearfix">2</div>
+		<div class="steps__line clearfix"></div>
+		<div class="steps__circle circle-next clearfix">3</div>
+	</div>
+	<div class="steps-2">
+		<ul clas="steps-2__ul">
+			<li class="steps-2__li steps-2__li_done"><span>1</span></li>
+			<li class="steps-2__li steps-2__li_active"><span>2</span></li>
+			<li class="steps-2__li steps-2__li_next"><span>3</span></li>
+			<li class="steps-2__li_last"><span>4</span></li>
+		</ul>
+	</div>
+</body>
+<svg class="svg" xmlns="http://www.w3.org/2000/svg">
+	<symbol id="arrow" viewBox="0 0 7 13">
+		<path d="M14.0020724,18.2055265 C13.9863454,17.992248 14.0601307,17.7737373 14.2234286,17.6108571 L19.6108571,12.2234286 C19.908,11.9255238 20.3902857,11.9255238 20.6881905,12.2234286 C20.9860952,12.5205714 20.9860952,13.0028571 20.6881905,13.3007619 L15.7831429,18.2058095 L20.6881905,23.1108571 C20.9860952,23.408 20.9860952,23.8902857 20.6881905,24.1881905 C20.539619,24.3367619 20.3445714,24.4114286 20.1495238,24.4114286 C19.9552381,24.4114286 19.7601905,24.3367619 19.6108571,24.1881905 L14.2234286,18.8007619 C14.0601307,18.6374641 13.9863454,18.4187647 14.0020724,18.2055265 Z" id="Arrow"/>
+	</symbol>
+	<symbol id="close" viewBox="0 0 13 13">
+		<path d="M276.979044,19.9788098 L271.645161,19.9788098 C270.908803,19.977867 270.311985,20.5746849 270.311985,21.3119859 C270.311985,21.6796936 270.460954,22.0134591 270.702321,22.2548262 C270.942745,22.4952504 271.276511,22.6442192 271.645161,22.645162 L276.979044,22.645162 L276.979044,27.9788093 C276.978102,28.7151675 277.574919,29.3119854 278.312221,29.3119854 C278.679928,29.3119854 279.013694,29.1630166 279.255061,28.9216495 C279.495485,28.6812252 279.644454,28.3474598 279.645397,27.9788093 L279.645397,22.645162 L284.978808,22.645162 C285.716109,22.645162 286.312927,22.0483442 286.311984,21.3119859 C286.311984,20.5746849 285.715166,19.977867 284.978808,19.9788098 L279.645397,19.9788098 L279.645397,14.6451626 C279.645397,13.9078615 279.048579,13.3110436 278.312221,13.3119865 C277.574919,13.3119865 276.978102,13.9088044 276.979044,14.6451626 L276.979044,19.9788098 Z" id="Close" transform="translate(278.311985, 21.311985) rotate(-316.000000) translate(-278.311985, -21.311985) "/>
+	</symbol>
+	<symbol id="lines" viewBox="0 0 20 15">
+		<path d="M15.307619,8.84285714 C15.6055238,9.1407619 15.6055238,9.62228571 15.307619,9.92019048 L9.92019048,15.307619 C9.77161905,15.4569524 9.57657143,15.5308571 9.38152381,15.5308571 C9.18647619,15.5308571 8.99142857,15.4569524 8.84285714,15.307619 C8.54495238,15.0104762 8.54495238,14.5281905 8.84285714,14.2302857 L14.2302857,8.84285714 C14.5281905,8.54495238 15.0104762,8.54495238 15.307619,8.84285714 L15.307619,8.84285714 Z" id="Path"/>
+		<path d="M15.307619,5.61009524 L5.61009524,15.307619 C5.46152381,15.4569524 5.26647619,15.5308571 5.07142857,15.5308571 C4.87638095,15.5308571 4.68209524,15.4569524 4.5327619,15.307619 C4.23561905,15.0104762 4.23561905,14.5281905 4.5327619,14.2302857 L14.2302857,4.5327619 C14.5281905,4.23561905 15.0104762,4.23561905 15.307619,4.5327619 C15.6055238,4.83066667 15.6055238,5.31295238 15.307619,5.61009524 L15.307619,5.61009524 Z" id="Path"/>
+ 		<path d="M0.223428571,6.68819048 C-0.0744761905,6.39028571 -0.0744761905,5.908 0.223428571,5.61085714 L5.61085714,0.223428571 C5.908,-0.0744761905 6.39028571,-0.0744761905 6.68819048,0.223428571 C6.98609524,0.520571429 6.98609524,1.00285714 6.68819048,1.3007619 L1.3007619,6.68819048 C1.15142857,6.8367619 0.956380952,6.91142857 0.762095238,6.91142857 C0.567047619,6.91142857 0.372,6.8367619 0.223428571,6.68819048 L0.223428571,6.68819048 Z" id="Path"/>
+ 		<path d="M0.223428571,9.92095238 L9.92095238,0.223428571 C10.2180952,-0.0744761905 10.700381,-0.0744761905 10.9982857,0.223428571 C11.2954286,0.520571429 11.2954286,1.00285714 10.9982857,1.3007619 L1.3007619,10.9982857 C1.15142857,11.1468571 0.956380952,11.2215238 0.762095238,11.2215238 C0.567047619,11.2215238 0.372,11.1468571 0.223428571,10.9982857 C-0.0744761905,10.700381 -0.0744761905,10.2180952 0.223428571,9.92095238 L0.223428571,9.92095238 Z" id="Path"/>
+ 		<path d="M1.3007619,14.2302857 C1.00285714,13.9331429 1.00285714,13.4508571 1.3007619,13.1529524 L13.1529524,1.3007619 C13.4508571,1.00285714 13.9331429,1.00285714 14.2302857,1.3007619 C14.5281905,1.59790476 14.5281905,2.08019048 14.2302857,2.37809524 L2.37809524,14.2302857 C2.2287619,14.379619 2.03447619,14.4535238 1.83942857,14.4535238 C1.64438095,14.4535238 1.44933333,14.379619 1.3007619,14.2302857 L1.3007619,14.2302857 Z" id="Path"/>	
+	</symbol>
+</svg>
+</html>

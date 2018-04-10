@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.wrapper{
+	width: 1600px;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 20px;
+	color: #adafb2;
+}
+.container{
+	width: 1180px;
+	margin: 0 210px;
+}
+.section{
+	background-color: #f1f1f1;
+	padding: 50px 0 100px;
+}
+			/*HEADER*/
+.header__logo{
+	padding: 22px 0;
+}
+.menu{
+	float: right;
+}
+.menu__ul{
+	list-style-type: none;
+}
+.menu__li{
+	float: left;
+	margin: 42px 0 0 20px;
+}
+.menu__a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #adafb2;
+	font-size: 18px;
+}
+.menu__a:hover{
+	color: #ed1b2f;
+	cursor: pointer;
+}
+
+		/*SECTION*/
+.shift-content{
+	padding: 46px 63px 90px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.18);
+}
+.section__p{
+	font-size: 22px;
+	color: #32393d;
+	text-transform: uppercase;
+}
+.placeholder__input{
+	width: 224px;
+	margin-top: -35px;
+	padding-right: 10px;
+	float: right;
+	background: url("../assets/icons/loupe.svg") no-repeat right;
+	font-size: 14px;
+}
+.section__top-line{
+	border: 1px solid #d8d8d8;
+	margin-top: 18px;
+}
+
+		/*SECTION img-block*/
+.img-block{
+	margin-top: 26px;
+}
+.img-block__elem{
+	float: left;
+}
+.img-block__elem-mid{
+	margin-left: 34px;
+}
+.img-block__elem-right{
+	float: right;
+}
+.img-block__p{
+	color: #32393d;
+	text-transform: uppercase;
+}
+.img-block__date{
+	font-size: 16px;
+	color: #adafb2;
+}
+		/*SECTION list block*/
+
+.list-block__elem{
+	margin-top: 64px;
+	float:left;
+}
+.list-block__elem-right{
+	float:right;
+}
+.separator{
+	width: 450px;
+}
+
+.list-block__title{
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #32393d;
+	margin-bottom: 19px;
+	display: inline-block;
+}
+.expand{
+	float: right;
+	margin-top: 4px;
+}
+.list-block__ul{
+	list-style: none;
+} 
+.list-block__ul-work{
+	list-style-image: url(../assets/icons/work-icon.svg);
+}
+.list-block__ul-education{
+	list-style-image: url(../assets/icons/education-icon.svg);
+}
+.list-block__li{
+	margin-top: 28px;
+}
+.list-block__p{
+	line-height: 1.5;
+	color: #47525d;
+}
+.list-block__a{
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #979797;
+}
+.list-block__a:hover{
+	color: #ed1b2f;
+	cursor: pointer;
+}

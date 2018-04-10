@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.dialog-body{
+	width: 1278px;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.steps-2{
+	margin-left: 249px;
+	margin-top: 66px;
+}
+
+.titles{
+	margin-top: 84px;
+}
+
+.titles__li{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 12px;
+	color: #9fa3a7;
+	text-transform: uppercase;
+}
+
+			/*Table*/
+.table{
+	margin: 83px 79px 63px;
+	width: 1120px;
+}
+
+.table__head{
+	font-size: 12px;
+	color: #9fa3a7;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+.table__tr{height: 164px;}
+.table__th-1{width: 545px;}
+.table__th-2{width: 174px;}
+.table__th-3{width: 178px;}
+.table__th-p{float: left;}
+.table__th-p-itog{margin-left: -56px;}
+.table__img{
+	width: 116px;
+	height: 87px;
+	float: left;
+	margin-right: 41px;
+}
+.table__td-p{
+	font-size: 22px;
+	color: #2c2c2c;
+	line-height: 1.45;
+	margin-top: 9px;
+}
+.check{
+	font-size: 12px;
+	color: #9b9b9b;
+}
+.table__cost-p{
+	font-size: 16px;
+	color: #212121;
+	margin-left: 18px;
+}
+.counter-plus-minus{
+	
+}
+.del-appl{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin-left: 72px;
+	background: url(../icons/delete.svg) no-repeat 50% 50%;
+}
+.total-price-span{
+	font-size: 36px;
+	color: #292929;
+	margin-left: 690px;
+}
+.cent{
+	font-size: 19px;
+	color: #9fa3a7;
+}
+.blue-button{
+	width: 167px;
+	display: inline-block;
+	margin-left: 68px;
+}

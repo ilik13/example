@@ -5,6 +5,7 @@
 	<title>Main</title>
 	<link rel="stylesheet" href="css/ui-kit.css" type="text/css">
 	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<script type="module" src="js/main.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -24,27 +25,34 @@
 			<div class="container">
 				<div class="shift-content">
 					<div class="section__top">
-					<p class="section__p">Пакеты предложений</p>
-					<input type="text" placeholder="placeholder" class="placeholder__input clearfix">
-					<hr class="section__top-line">
-				</div>
-				<div class="img-block">
-						<div class="img-block__elem clearfix">
-							<img src="assets/img/shot-1.jpg" alt="стандартный пакет">
-							<p class="img-block__p">Стандартный пакет</p>
-							<p class="img-block__date">08 апреля 2012</p>
-						</div>
-						<div class="img-block__elem img-block__elem-mid clearfix">
-							<img src="assets/img/shot-2.jpg" alt="новый пакет">
-							<p class="img-block__p">Новый цфт-банк</p>
-							<p class="img-block__date">09 сентября 2016</p>
-						</div>
-						<div class="img-block__elem img-block__elem-right clearfix">
-							<img src="assets/img/shot-3.jpg" alt="каталог разработок">
-							<p class="img-block__p">Каталог разработок</p>
-							<p class="img-block__date">03 марта 2015</p>
-						</div>
-				</div>
+						<p class="section__p">Пакеты предложений</p>
+						<input type="text" placeholder="placeholder" class="placeholder__input clearfix">
+						<hr class="section__top-line">
+					</div>
+
+					<div id="carusel" class="carusel">
+						<button class="arrow prev">⇦</button>
+						<div class="img-block">
+							<ul class="img-block__ul">
+								<template id="tempBlock">
+									<li>
+										<div class="img-block__elem">
+											<img src="assets/img/shot-3.jpg" alt="Template">
+											<a href="#" class="img-block__a">Template</a>
+											<p class="img-block__date">Template</p>
+										</div>
+									</li>
+								</template>
+							</ul>
+							<div class="points-block">
+								<template id="tempPoints">
+									<div class="points-block__point"></div>
+								</template>
+							</div>
+							
+					</div>	
+						<button class="arrow next">⇨</button>
+					</div>
 
 				<div class="list-block clearfix">
 					<div class="list-block__elem clearfix">
@@ -103,6 +111,7 @@
 			</div>
 		</section>
 	</div>
+
 </body>
 <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" display="none">
 	<symbol viewBox="0 0 8 13" id="expand">

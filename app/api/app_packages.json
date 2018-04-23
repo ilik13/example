@@ -1,0 +1,100 @@
+[
+	{
+		"id":1,
+		"title":"Стандартный пакет",
+		"lastUpdate":123123,
+		"guid":"111",
+		"href":"#"
+	},
+	{
+		"id":2,
+		"title":"Новый ЦФТ-Банк",
+		"lastUpdate":123123,
+		"guid":"112",
+		"href":"new CFT-Bank.html"
+	},
+	{
+		"id":3,
+		"title":"Cash management",
+		"lastUpdate":123123,
+		"guid":"113",
+		"href":"#"
+	},
+	{
+		"id":4,
+		"title":"Аренда сейфов",
+		"lastUpdate":123123,
+		"guid":"114",
+		"href":"#"
+	},
+	{
+		"id":5,
+		"title":"Банковские гарантии",
+		"lastUpdate":123123,
+		"guid":"115",
+		"href":"#"
+	},
+	{
+		"id":6,
+		"title":"Казначейство",
+		"lastUpdate":123123,
+		"guid":"116",
+		"href":"#"
+	},
+	{
+		"id":7,
+		"title":"Страхование",
+		"lastUpdate":123123,
+		"guid":"117",
+		"href":"#"
+	},
+	{
+		"id":8,
+		"title":"Факторинговое обслуживание",
+		"lastUpdate":123123,
+		"guid":"118",
+		"href":"#"
+	},
+	{
+		"id":9,
+		"title":"Переводы средств",
+		"lastUpdate":123123,
+		"guid":"119",
+		"href":"#"
+	},
+	{
+		"id":10,
+		"title":"Расчетный центр",
+		"lastUpdate":123123,
+		"guid":"120",
+		"href":"#"
+	},
+	{
+		"id":11,
+		"title":"Пластиковые карты",
+		"lastUpdate":123123,
+		"guid":"121",
+		"href":"#"
+	},
+	{
+		"id":12,
+		"title":"Финансовый мониторинг",
+		"lastUpdate":123123,
+		"guid":"122",
+		"href":"#"
+	},
+	{
+		"id":13,
+		"title":"Депозиты и вклады",
+		"lastUpdate":123123,
+		"guid":"123",
+		"href":"#"
+	},
+	{
+		"id":14,
+		"title":"Инвестиции",
+		"lastUpdate":123123,
+		"guid":"124",
+		"href":"#"
+	}
+]

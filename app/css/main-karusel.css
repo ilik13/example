@@ -135,22 +135,6 @@
 	font-size: 16px;
 	color: #adafb2;
 }
-.points-block{
-	margin-left: 450px;
-}
-.points-block__point{
-	width: 14px;
-	height: 14px;
-	border-radius: 50% 50%;
-	background-color: #ccc;
-	display: inline-block;
-	margin-left: 4px;
-}
-.points-block__point:hover{
-	border: 3px solid blue;
-	background-color: #cccccb;
-	cursor: pointer;
-}
 		/*SECTION list block*/
 
 .list-block__elem{

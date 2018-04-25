@@ -1,5 +1,5 @@
 import {slider} from './modules/slider.js';
-import {addDinamicBloks, createImgBlockArray} from'./modules/addBloksCarusel.js';
+import {createCarusel} from'./modules/addBloksCarusel.js';
 
 window.onload=function(){
 //Первое задание -------------------------------------------------
@@ -25,45 +25,7 @@ window.onload=function(){
     return '#' + r.toString(16) + g.toString(16) + b.toString(16);
 	}
 //------------------динамическая подгрузка блоков-----------
-let imgBlockArray = [ //json id:img
-		{
-			imgUrl:"assets/img/shot-1.jpg",
-			nameApp:"Стандартный пакет",
-			dateApp:"08 апреля 2012"
-		},
-		{
-			imgUrl:"assets/img/shot-2.jpg",
-			nameApp:"Новый ЦФТ-Банк",
-			dateApp:"09 сентября 2016"
-		},
-		{
-			imgUrl:"assets/img/shot-3.jpg",
-			nameApp:"Каталог разработок",
-			dateApp:"08 апреля 2015"
-		},
-		{
-			imgUrl:"assets/img/shot-1.jpg",
-			nameApp:"Cash management",
-			dateApp:"12 мая 2017"
-		},
-		{
-			imgUrl:"assets/img/shot-2.jpg",
-			nameApp:"Аренда сейфов",
-			dateApp:"22 декабря 2013"
-		},
-		{
-			imgUrl:"assets/img/shot-3.jpg",
-			nameApp:"Банковские гарантии",
-			dateApp:"01 января 2014"
-		},
-		{
-			imgUrl:"assets/img/shot-1.jpg",
-			nameApp:"Казначейство",
-			dateApp:"11 марта 2014"
-		}
-	]
-	//imgBlockArray = createImgBlockArray();
-	createImgBlockArray();
-	addDinamicBloks(imgBlockArray);	
+
+	createCarusel();
 	slider();
 }

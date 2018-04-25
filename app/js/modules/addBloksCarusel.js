@@ -1,44 +1,42 @@
-	/*let imgMap{
-		1:"assets/img/shot-1.jpg",
-		2:"assets/img/shot-2.jpg",
-		3:"assets/img/shot-3.jpg",
-		4:"assets/img/shot-1.jpg",
-		5:"assets/img/shot-2.jpg",
-		6:"assets/img/shot-3.jpg",
-		7:"assets/img/shot-1.jpg",
-		8:"assets/img/shot-2.jpg",
-		9:"assets/img/shot-3.jpg",
-		10:"assets/img/shot-1.jpg",
-		11:"assets/img/shot-2.jpg",
-		12:"assets/img/shot-3.jpg",
-		13:"assets/img/shot-1.jpg",
-		14:"assets/img/shot-2.jpg",
-	}*/
-	export function addDinamicBloks(array){
+	let imgMap = {
+		111:"assets/img/shot-1.jpg",
+		112:"assets/img/shot-2.jpg",
+		113:"assets/img/shot-3.jpg",
+		114:"assets/img/shot-1.jpg",
+		115:"assets/img/shot-2.jpg",
+		116:"assets/img/shot-3.jpg",
+		117:"assets/img/shot-1.jpg",
+		118:"assets/img/shot-2.jpg",
+		119:"assets/img/shot-3.jpg",
+		120:"assets/img/shot-1.jpg",
+		121:"assets/img/shot-2.jpg",
+		122:"assets/img/shot-3.jpg",
+		123:"assets/img/shot-1.jpg",
+		124:"assets/img/shot-2.jpg"
+	}
+	function addDinamicBloks(array){
 		let blockOfCarusel = document.getElementById("tempBlock");
 		let point = document.getElementById("tempPoints");
-		for (let i = 0; i < array.length; i++) {
+		let rootUl = document.querySelector(".img-block__ul"); //.createShadowRoot(); едет верстка, не подключаются классы css
+		for (let i = 0; i < array.length; i++) {  // переделать в for each
 			let cloneBlock = blockOfCarusel.content.cloneNode(true);
 			let clonePoint = point.content.cloneNode(true);
 
-			cloneBlock.querySelector("img").src = array[i].imgUrl;
-			cloneBlock.querySelector("a").text = array[i].nameApp;
-			cloneBlock.querySelector("p").innerHTML = array[i].dateApp;
-			document.querySelector(".img-block__ul").appendChild(cloneBlock);
+			cloneBlock.querySelector("img").src = imgMap[array[i].guid];
+			cloneBlock.querySelector("a").text = array[i].title; 
+			cloneBlock.querySelector("p").innerHTML = new Date(array[i].lastUpdate).toLocaleString("ru", {year: 'numeric',  month: 'long',  day: 'numeric'});
+			rootUl.appendChild(cloneBlock);
 			clonePoint.querySelector("div").setAttribute("data-id", i);
 			document.querySelector(".points-block").appendChild(clonePoint);
-			//дата из lastUpdate вместо dateApp
 		}
 	}
-	export function createImgBlockArray(){
+	export function createCarusel(){
 		
 		let xhr = new XMLHttpRequest();
 		xhr.open('GET', '../api/app_packages.json', true);
 		xhr.send();
-		debugger;
 		xhr.onload = function(e){
 			let restoredxhr = JSON.parse(xhr.responseText);
-			return(restoredxhr);
-			console.log(restoredxhr);
+			addDinamicBloks(restoredxhr);
 		}
 	}

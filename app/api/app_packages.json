@@ -2,99 +2,85 @@
 	{
 		"id":1,
 		"title":"Стандартный пакет",
-		"lastUpdate":123123,
-		"guid":"111",
-		"href":"#"
+		"lastUpdate":2234562378990,
+		"guid":111
 	},
 	{
 		"id":2,
 		"title":"Новый ЦФТ-Банк",
-		"lastUpdate":123123,
-		"guid":"112",
-		"href":"new CFT-Bank.html"
+		"lastUpdate":3234562378900,
+		"guid":112
 	},
 	{
 		"id":3,
 		"title":"Cash management",
-		"lastUpdate":123123,
-		"guid":"113",
-		"href":"#"
+		"lastUpdate":4234562378890,
+		"guid":113
 	},
 	{
 		"id":4,
 		"title":"Аренда сейфов",
-		"lastUpdate":123123,
-		"guid":"114",
-		"href":"#"
+		"lastUpdate":5234562378910,
+		"guid":114
 	},
 	{
 		"id":5,
 		"title":"Банковские гарантии",
-		"lastUpdate":123123,
-		"guid":"115",
-		"href":"#"
-	},
+		"lastUpdate":9234562378920,
+		"guid":115
+ 	},
 	{
 		"id":6,
 		"title":"Казначейство",
-		"lastUpdate":123123,
-		"guid":"116",
-		"href":"#"
-	},
+		"lastUpdate":923456255789,
+		"guid":116
+ 	},
 	{
 		"id":7,
 		"title":"Страхование",
-		"lastUpdate":123123,
-		"guid":"117",
-		"href":"#"
-	},
+		"lastUpdate":999456767890,
+		"guid":117
+ 	},
 	{
 		"id":8,
-		"title":"Факторинговое обслуживание",
-		"lastUpdate":123123,
-		"guid":"118",
-		"href":"#"
-	},
+		"title":"Факторинг",
+		"lastUpdate":9234565678900,
+		"guid":118
+ 	},
 	{
 		"id":9,
 		"title":"Переводы средств",
-		"lastUpdate":123123,
-		"guid":"119",
-		"href":"#"
-	},
+		"lastUpdate":9234562379090,
+		"guid":119
+ 	},
 	{
 		"id":10,
 		"title":"Расчетный центр",
-		"lastUpdate":123123,
-		"guid":"120",
-		"href":"#"
-	},
+		"lastUpdate":9237862378890,
+		"guid":120
+ 	},
 	{
 		"id":11,
 		"title":"Пластиковые карты",
-		"lastUpdate":123123,
-		"guid":"121",
-		"href":"#"
-	},
+		"lastUpdate":9267562378790,
+		"guid":121
+ 	},
 	{
 		"id":12,
 		"title":"Финансовый мониторинг",
-		"lastUpdate":123123,
-		"guid":"122",
-		"href":"#"
-	},
+		"lastUpdate":9994562378790,
+		"guid":122
+ 	},
 	{
 		"id":13,
 		"title":"Депозиты и вклады",
-		"lastUpdate":123123,
-		"guid":"123",
-		"href":"#"
-	},
+		"lastUpdate":9234578378790,
+		"guid":123
+ 	},
 	{
 		"id":14,
 		"title":"Инвестиции",
-		"lastUpdate":123123,
-		"guid":"124",
-		"href":"#"
-	}
+		"lastUpdate":9234568376890,
+		"guid":124
+ 	}
 ]

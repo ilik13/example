@@ -75,20 +75,17 @@
 
 		/*SECTION img-block*/
 .carusel {
-	width: 1054px;
 	position: relative;
+	margin-left: -16px;
  }
 .arrow {
   position: absolute;
   top: 86px;
-  padding: 0;
-  background: #ddd;
   border-radius: 15px;
   border: 1px solid gray;
   font-size: 24px;
   line-height: 24px;
   color: #444;
-  display: block;
 }
 .arrow:focus {
   outline: none;
@@ -101,10 +98,10 @@
   left: -36px;
 }
 .next {
-  right: -30px;
+  right: -38px;
 }
 .img-block{
-	width: 1054px;
+	width: 1084px;
 	margin-top: 26px;
 	overflow:hidden;
 }
@@ -117,11 +114,11 @@
 	transition: margin-left 250ms;
 }
 
-.img-block__ul li{display: inline-block;}
+.img-block__li{display: inline-block;}
 
 .img-block__elem{
 	display: inline-block;
-	margin-right: 34px;
+	margin-left: 20px;
 }
 
 .img-block__a{
